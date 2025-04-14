@@ -1,0 +1,241 @@
+/* src/App.css */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* src/App.css */
+
+/* Animated gradient background for the body */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Content container styles to ensure readability */
+.container {
+  background-color: rgba(255, 255, 255, 0.9); /* semi-transparent to show the background */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+/* General Styles */
+h1, h2 {
+  color: #333;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.wallet-balance {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product-item p {
+  margin: 0.5rem 0;
+}
+
+
+
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease-in-out;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px 5px;
+  font-size: 16px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.product-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 8px;
+  width: 95%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.product-item p {
+  margin: 5px 0;
+}
+
+.refresh-btn {
+  margin-bottom: 20px;
+}
+/* src/App.css */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.product-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* src/App.css */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.wallet-balance {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product-item p {
+  margin: 0.5rem 0;
+}
+
+
+/* src/App.css */
+
+/* Animated gradient background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Content container styling */
+.container {
+  background-color: rgba(255, 255, 255, 0.9); /* light overlay for readability */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+/* General styles */
+h1, h2 {
+  color: #333;
+}
+.btn {
+  margin: 5px;
+}
+.wallet-balance {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.product-item p {
+  margin: 0.5rem 0;
+}
+
+/* --- Modal Styles for EditProductModal --- */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
