@@ -7,10 +7,8 @@
 
 [cite_start]Welcome to the **Retail Store DApp**, a decentralized e-commerce platform designed to create a secure, transparent, and trustless marketplace[cite: 324, 335]. [cite_start]By leveraging Ethereum smart contracts, this project eliminates intermediaries, allowing users to list and purchase products directly with ETH payments[cite: 325, 341].
 
-[cite_start]**Live Demo URL:** **[https://d3ardrozwa9c7q.cloudfront.net/](https://d3ardrozwa9c7q.cloudfront.net/)** [cite: 321]
 
 <p align="center">
-  <img src="https://i.imgur.com/39DcCw3.png" alt="Retail DApp Home Page" width="90%">
 </p>
 
 ---
@@ -42,7 +40,6 @@
 [cite_start]The application's architecture is composed of a frontend UI, a blockchain layer for logic execution, and a cloud hosting solution for delivery[cite: 367]. [cite_start]The user interacts with the React app, which uses Web3.js to send requests to the smart contract on the Ethereum network via their MetaMask wallet[cite: 368, 371].
 
 <p align="center">
-  <img src="https://i.imgur.com/G5T7t1b.png" alt="Architecture Diagram" width="80%">
 </p>
 
 ---
